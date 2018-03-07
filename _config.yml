@@ -1,1 +1,3 @@
-permalink: /index.html
+redirects:
+    redirect_to: index.html
+    try_files: true
