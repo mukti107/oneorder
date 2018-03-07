@@ -1,0 +1,6 @@
+ng build --prod
+cp cname docs/
+mv docs/index.html 404.html
+git add .
+git commit -m $1
+git push origin master
